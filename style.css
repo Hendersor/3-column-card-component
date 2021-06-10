@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cars-container{
+    width: 45%;
+    height: 45%;
+    display: flex;
+    border:solid 2px red;
+    align-content: center;
+    position: relative;
+    left: calc(50% - 22.5%);
+}
+
+.cars-container .sedans{
+    background-color:hsl(31, 77%, 52%);
+}
+
+.cars-container .suvs{
+    background-color: hsl(184, 100%, 22%);
+}
+
+.cars-container .luxury{
+    background-color: hsl(179, 100%, 13%);
+}
+
+
+
+
+
+/* .sedas span{
+    background-image: url("https://res.cloudinary.com/dwdz4mn27/image/upload/v1623348336/3-column-preview-card-component-main/images/icon-sedans_qowdus.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
