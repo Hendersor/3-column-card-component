@@ -5,25 +5,29 @@
 }
 
 .cars-container{
-    width: 45%;
-    height: 45%;
-    display: flex;
     border:solid 2px red;
-    align-content: center;
-    position: relative;
-    left: calc(50% - 22.5%);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
 }
 
 .cars-container .sedans{
     background-color:hsl(31, 77%, 52%);
+    height: 55vh;
+    width: 17vw;
 }
 
 .cars-container .suvs{
     background-color: hsl(184, 100%, 22%);
+    height:55vh;
+    width: 17vw;
 }
 
 .cars-container .luxury{
     background-color: hsl(179, 100%, 13%);
+    height: 55vh;
+    width: 17vw;
 }
 
 
