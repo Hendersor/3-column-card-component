@@ -13,30 +13,95 @@
 }
 
 .cars-container .sedans{
-    background-color:hsl(31, 77%, 52%);
+    
     height: 55vh;
     width: 17vw;
+    border-radius: 5px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    color: rgba(255, 255, 255, 255);
+    padding-left: 30px;
+    
+}
+.card-car p{
+    font-family: 'Lexend Deca', sans-serif;
 }
 
-.cars-container .suvs{
-    background-color: hsl(184, 100%, 22%);
-    height:55vh;
-    width: 17vw;
+.card-car h2{
+    font-family: 'Big Shoulders Display', cursive;
 }
 
-.cars-container .luxury{
-    background-color: hsl(179, 100%, 13%);
+
+
+
+.card-car{
     height: 55vh;
     width: 17vw;
+    color: rgba(255, 255, 255, 255);
+    align-content: center;
+    justify-content: center;
+    padding-left: 40px;
+    padding-top: 30px;
 }
 
+.card-car p{
+    font-size: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 
+.cars-container .car1{
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
 
-
-
-/* .sedas span{
+.card-car .sedan-icon{
+    display: inline-block;
+    height: 35px;
+    width: 55px;
     background-image: url("https://res.cloudinary.com/dwdz4mn27/image/upload/v1623348336/3-column-preview-card-component-main/images/icon-sedans_qowdus.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-} */
+}
+
+.cars-container .car2{
+    background-color: hsl(184, 100%, 22%);
+}
+.card-car .suvs-icon{
+    height: 35px;
+    width: 55px;
+    background-image: url("https://res.cloudinary.com/dwdz4mn27/image/upload/v1623348336/3-column-preview-card-component-main/images/icon-suvs_tctt4h.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+}
+
+.cars-container .car3{
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.card-car .luxury-icon{
+    display: inline-block;
+    background-image: url("https://res.cloudinary.com/dwdz4mn27/image/upload/v1623348336/3-column-preview-card-component-main/images/icon-luxury_w5umxb.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 35px;
+    width: 55px;
+}
+
+.card-car .buttons{
+    width: 146.84px;
+    height: 45px;
+    border-radius: 50px;
+    
+}
+
+.card-car .buttons .c1{
+    color:hsl(31, 77%, 52%);
+}
