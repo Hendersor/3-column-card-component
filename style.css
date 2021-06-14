@@ -29,25 +29,32 @@
 
 .card-car h2{
     font-family: 'Big Shoulders Display', cursive;
+    margin-top: 25px;
+    font-size: 29px;
 }
 
 
 
 
 .card-car{
-    height: 55vh;
-    width: 17vw;
+    height: 75vh;
+    width: 20vw;
     color: rgba(255, 255, 255, 255);
     align-content: center;
     justify-content: center;
     padding-left: 40px;
-    padding-top: 30px;
+    padding-top: 50px;
+    min-width: 17vw;
+    min-height: 55vh;
 }
 
 .card-car p{
-    font-size: 15px;
+    font-size: 13px;
     padding-top: 30px;
     padding-bottom: 30px;
+    line-height: 25px;
+    padding-right: 30px;
+    align-content: center;
 }
 
 .cars-container .car1{
@@ -99,9 +106,22 @@
     width: 146.84px;
     height: 45px;
     border-radius: 50px;
-    
+    border:none;
+    cursor: pointer;
+
 }
 
-.card-car .buttons .c1{
-    color:hsl(31, 77%, 52%);
+.card-car .c3{
+    color: hsl(31, 77%, 52%);
+    margin-top: 76px;
+}
+
+.card-car .c2{
+    color: hsl(184, 100%, 22%);
+    margin-top: 76px;
+}
+
+.card-car .c1{
+    color: hsl(179, 100%, 13%);
+    margin-top: 100px;
 }
